@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;       /* **关键：移除默认外边距** */
+  padding: 0;      /* 移除默认内边距 */
+  height: 100%;    /* 确保 html 和 body 占据整个视口高度 */
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #ffffff;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+
+
+#chat-container {
+  flex: 1; /* 占据剩余宽度 */
+  height: 100%; /* 确保高度占满 .app */
+  display: flex; /* 确保内部的 .chat-interface 能够垂直填充 */
+  flex-direction: column;
+}
