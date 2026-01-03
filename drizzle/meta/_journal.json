@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1764929273593,
+      "tag": "0000_illegal_namor",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1764929348813,
+      "tag": "0001_perfect_spot",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1765545265514,
+      "tag": "0002_good_dragon_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1765805392983,
+      "tag": "0003_wet_sumo",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1766061929429,
+      "tag": "0004_dusty_rogue",
+      "breakpoints": true
+    }
+  ]
+}
